@@ -20,6 +20,8 @@ function HomePage(props) {
   );
 }
 
+
+// mongodb: user: gailleamolong1 password: wBawaPByqckcST5n
 export async function getStaticProps() {
   const featuredEvents = await getFeaturedEvents();
 
