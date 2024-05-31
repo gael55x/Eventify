@@ -1,5 +1,6 @@
 import { MongoClient } from 'mongodb';
 
+// insert database connection 
 export async function connectDatabase() {
   const client = await MongoClient.connect(
     ''

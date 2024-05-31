@@ -1,3 +1,4 @@
+// insert firebase connection
 export async function getAllEvents() {
   const response = await fetch('');
   const data = await response.json();
