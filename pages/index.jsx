@@ -8,10 +8,10 @@ function HomePage(props) {
   return (
     <div>
       <Head>
-        <title>NextJS Events</title>
+        <title>Eventify</title>
         <meta
           name='description'
-          content='Find a lot of great events that allow you to evolve...'
+          content='Create events with eventify...'
         />
       </Head>
       <NewsletterRegistration />
@@ -21,7 +21,6 @@ function HomePage(props) {
 }
 
 
-// mongodb: user: gailleamolong1 password: wBawaPByqckcST5n
 export async function getStaticProps() {
   const featuredEvents = await getFeaturedEvents();
 
